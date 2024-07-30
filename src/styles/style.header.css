@@ -1,0 +1,29 @@
+.nav-header {
+    box-shadow: 0px 4px 20px 0px #0000001A !important;
+    z-index: 99 !important;
+    position: fixed !important;
+    background: #FFFFFF !important;
+}
+.img-logo {
+    width: 160.97px;
+    height: 99.4px;
+}
+
+#header.fixed-top {
+    height: 100px;
+    margin-top: -1px;
+    z-index: 9;
+    transition: 0.3s all ease-in-out;
+}
+
+@media (max-width:1023px) {
+    img.img-logo.py-2 {
+        margin-top: -13px!important;
+    }
+    li.breadcrumb-item {
+        font-size: inherit;
+    }
+    h1 {
+        font-size: auto !important;
+    }
+}

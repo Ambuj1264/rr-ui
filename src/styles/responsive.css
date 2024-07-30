@@ -1,0 +1,260 @@
+@media (max-width: 1399.98px) {
+    .banner_box_wrap {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .banner-section .caption-frame {
+        max-width: 1000px;
+        width: 100%;
+    }
+
+    .banner_box_wrap .card {
+        min-width: auto;
+    }
+
+    .about_sec::before {
+        top: -100px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .banner_box_wrap {
+        min-width: 100%;
+        width: 100%;
+        padding: 0px 30px;
+    }
+
+    .banner-section .caption-frame {
+        width: 100%;
+    }
+
+    .banner_box_wrap .card {
+        min-width: auto;
+
+    }
+
+    .about_sec::before {
+        display: none;
+    }
+
+    .border_pic::before,
+    .border_pic::after {
+        display: none;
+    }
+
+    .services_sec .content_serv {
+        padding: 20px 0px;
+    }
+
+    .support_pic {
+        min-width: 430px;
+        padding: 0px 40px;
+    }
+
+    .support_wraper {
+        max-width: 670px;
+        padding: 30px 30px 30px 185px;
+
+    }
+
+    .inner_services {
+        background-image: none;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    .banner_box_wrap {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .banner-section .caption-frame {
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 100%;
+        padding: 0px 15px;
+    }
+
+    .banner-section .caption-frame h1 {
+        font-size: 72px;
+        line-height: 50px;
+
+    }
+
+    .about_sec::before {
+        display: none;
+    }
+
+    .sub-title {
+        margin-bottom: 5px;
+    }
+
+    .border_pic::before,
+    .border_pic::after {
+        display: none;
+    }
+
+    .services_sec {
+        padding: 150px 0px 100px;
+        background-size: auto;
+        background-position-y: -20%;
+    }
+
+    .services_sec .content_serv {
+        padding: 20px 0px;
+    }
+
+    .support_pic {
+        min-width: 100%;
+        position: unset;
+        min-height: auto;
+        padding: 20px 20px;
+    }
+
+    .support_content h1 {
+        font-size: 36px;
+        line-height: 45px;
+        margin-bottom: 15px;
+    }
+
+    .support_wraper {
+        padding: 25px;
+        max-width: 100%;
+        min-height: auto;
+        margin-top: 20px;
+    }
+
+    .link ul {
+        list-style: none;
+        display: flex;
+        gap: 10px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .inner_services {
+        background-image: none;
+    }
+
+    .grid-input-field {
+        padding: 1rem;
+    }
+
+    .grid-info-item {
+        padding: 1rem;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+
+    .banner_box_wrap {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .banner-section .caption-frame {
+        top: 50%;
+    }
+
+    .banner-section .caption-frame h1 {
+        font-size: 50px;
+        line-height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .banner-section .caption-frame p {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .banner_box_wrap .card {
+        min-height: auto;
+    }
+
+    .about_sec::before {
+        display: none;
+    }
+
+    .about_content ul {
+        margin-bottom: 15px;
+    }
+
+    ul li {
+        line-height: 30px;
+    }
+
+    .how_it_work_sec {
+        padding: 50px 0px;
+    }
+
+    .services_sec {
+        padding: 70px 0px 70px;
+        /* background-image: url(../images/bg-services.png); */
+        background-size: inherit;
+        background-position-y: -10%;
+    }
+
+    .border_pic::before,
+    .border_pic::after {
+        display: none;
+    }
+
+    .services_sec .content_serv {
+        padding: 20px 0px;
+    }
+
+    .caption span {
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .event_sec {
+        padding: 70px 0px 70px;
+        background-position: inherit;
+        min-height: auto;
+    }
+
+    .support_pic {
+        min-width: 100%;
+        position: unset;
+        min-height: auto;
+        padding: 20px 20px;
+    }
+
+    .support_content h1 {
+        font-size: 36px;
+        line-height: 45px;
+        margin-bottom: 15px;
+    }
+
+    .support_wraper {
+        padding: 25px;
+        max-width: 100%;
+        min-height: auto;
+        margin-top: 20px;
+    }
+
+    .breadcrumb_heading h1 {
+        font-size: 40px;
+    }
+
+    .inner_services {
+        background-image: none;
+    }
+
+    .talk_body {
+        padding: 70px 30px;
+    }
+
+    .booking-main-div {
+        margin: 1rem;
+    }
+
+  
+
+}
